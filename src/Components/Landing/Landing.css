@@ -1,0 +1,48 @@
+.gulb-logo {
+  width: auto;
+  height: 5rem;
+  margin-bottom: 0;
+  object-fit: cover;
+}
+
+.top-h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 82px;
+  color: #8dcec6;
+}
+
+.top-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 161.5%;
+  color: #464646;
+  width: 80%;
+}
+
+.donuts-img {
+  width: auto;
+  height: 100%;
+  animation: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.image_Section {
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.downlode_links {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
