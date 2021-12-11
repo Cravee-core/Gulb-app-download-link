@@ -1,36 +1,77 @@
-.gulb-logo {
+.landing-page {
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   width: auto;
-  height: 5rem;
-  margin-bottom: 0;
-  object-fit: cover;
+  max-width: auto;
 }
 
-.top-h1 {
-  font-family: "Poppins", sans-serif;
+.intro-section {
+  height: 100%;
+}
+
+.gulb-logo {
+  width: auto;
+  height: 4rem;
+  margin-bottom: 0;
+  object-fit: cover;
+  margin: 14px 0px;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text_1 {
+  font-family: "Coolvetica-CondensedRg-Regular";
   font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 82px;
-  color: #8dcec6;
+  font-size: 100px;
+  transform: scaleY(1.8);
+  line-height: 130px;
+  color: #fff;
+  margin-right: 5px;
+  letter-spacing: 2px;
+}
+
+.Hero .Hero_text {
+  font-family: "Coolvetica-CondensedRg-Regular";
+  font-style: normal;
+  font-size: 149px;
+  line-height: 255px;
+  color: #fff;
+  transform: scaleY(2.6);
+  letter-spacing: 4px;
 }
 
 .top-para {
-  font-family: "Poppins";
+  text-transform: uppercase;
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 161.5%;
-  color: #464646;
-  width: 80%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 118%;
+  color: #fff;
+  width: 90%;
+  padding-top: 15px;
 }
 
 .donuts-img {
   width: auto;
-  height: 100%;
-  animation: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  height: 450px;
+  position: absolute;
+  right: -50px;
+  object-fit: cover;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .image_Section {
@@ -41,8 +82,163 @@ a:hover {
   cursor: pointer;
 }
 
+.click_able {
+  z-index: 5;
+}
+
 .downlode_links {
   width: auto;
-  height: 100%;
+  height: 60px;
   object-fit: contain;
+  box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.heading_point {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 100%;
+  width: 70%;
+  color: #92d0bb;
+  margin-bottom: 15px;
+}
+
+.heading_point_2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 100%;
+  width: 60%;
+  text-align: end;
+  margin-bottom: 15px;
+  color: #92d0bb;
+}
+
+.sub_container {
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+
+  box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background: linear-gradient(
+    90.59deg,
+    #fbfbfb 4.81%,
+    rgba(255, 255, 255, 0.27) 93.16%
+  );
+}
+
+.sub_container_2 {
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  width: 70%;
+  box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background: linear-gradient(
+    90.59deg,
+    #fbfbfb 4.81%,
+    rgba(255, 255, 255, 0.27) 93.16%
+  );
+}
+
+.emoji_img {
+  width: auto;
+  height: 72px;
+}
+
+.sub_point {
+  font-style: normal;
+  font-family: sans-serif;
+  color: #787878;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 128%;
+  margin-bottom: 0;
+}
+
+.sub_point_2 {
+  font-style: normal;
+  font-family: sans-serif;
+  color: #787878;
+  font-weight: normal;
+  text-align: end;
+
+  font-size: 20px;
+  line-height: 128%;
+  margin-bottom: 0;
+}
+
+.data {
+  width: 70%;
+}
+
+.data_2 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+/* ----------------------------- */
+
+.customer_point {
+  font-family: sans-serif;
+  color: #6ab79d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 128%;
+  text-align: center;
+}
+
+.important {
+  background: #74b29d;
+  box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin: 15px 0;
+  padding: 30px;
+}
+
+.hightlight {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 118%;
+  color: #ffffff;
+}
+
+.surpriceBag_img {
+  position: absolute;
+  width: auto;
+  height: 360px;
+  object-fit: cover;
+  top: -130%;
+  right: -84px;
+}
+.dowmload_link {
+  background: #ffffff;
+  box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 50px 0 60px 0px;
+  justify-content: center;
+}
+
+.footer_text {
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 118%;
+  text-align: center;
+  color: #787878;
+  width: 70%;
 }

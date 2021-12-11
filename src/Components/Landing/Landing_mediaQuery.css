@@ -1,0 +1,335 @@
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .intro-section {
+    padding: 0px 20px;
+  }
+
+  .gulb-logo {
+    height: 3rem;
+  }
+
+  .landing-page {
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-text_1 {
+    font-size: 45px;
+    transform: scaleY(1.8);
+    line-height: 50px;
+  }
+
+  .Hero .Hero_text {
+    font-size: 64px;
+    line-height: 106px;
+  }
+  .top-para {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px 0px;
+  }
+
+  .donuts-img {
+    right: 0px;
+    height: 160px;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .downlode_links {
+    height: 40px;
+  }
+
+  .data {
+    width: 100%;
+  }
+
+  .heading_point,
+  .heading_point_2 {
+    font-size: 32px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sub_point,
+  .sub_point_2 {
+    font-size: 16px;
+  }
+  .sub_container_2 {
+    width: 100%;
+  }
+
+  .customer_point {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .hightlight {
+    font-size: 20px;
+  }
+
+  .mobile-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .surpriceBag_img {
+    position: relative;
+    height: 150px;
+    top: 0;
+    right: 0;
+  }
+
+  .dowmload_link,
+  .important {
+    padding: 15px;
+  }
+
+  .footer_text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .landing-page {
+    background-position: center;
+    width: 100%;
+    height: 550px;
+  }
+
+  .donuts-img {
+    right: 0px;
+    height: 300px;
+    position: relative;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 1281px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* 
+@media only screen and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .gulb-logo {
+    height: 3rem;
+  }
+
+  .landing-page {
+    background-position: center;
+
+    width: 100%;
+    height: 650px;
+  }
+
+  .top-text_1 {
+    font-size: 52px;
+    transform: scaleY(1.8);
+    line-height: 70px;
+  }
+
+  .Hero .Hero_text {
+    font-size: 82px;
+    line-height: 143px;
+  }
+  .top-para {
+    width: 100%;
+    text-align: center;
+  }
+
+  .donuts-img {
+    right: 0px;
+    height: 180px;
+  }
+
+  .downlode_links {
+    height: 40px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .landing-page {
+    background-position: center;
+    width: 100%;
+    height: 600px;
+  }
+
+  .top-text_1 {
+    font-size: 52px;
+    transform: scaleY(1.8);
+    line-height: 70px;
+  }
+
+  .Hero .Hero_text {
+    font-size: 82px;
+    line-height: 143px;
+  }
+  .top-para {
+    width: 100%;
+    text-align: center;
+  }
+
+  .donuts-img {
+    right: 0px;
+    height: 280px;
+  }
+
+  .downlode_links {
+    height: 40px;
+  }
+
+  
+  .heading_point {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 100%;
+    width: 70%;
+    color: #92d0bb;
+    margin-bottom: 15px;
+  }
+
+  .heading_point_2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 100%;
+    width: 100%;
+    text-align: end;
+    margin-bottom: 15px;
+    color: #92d0bb;
+  }
+
+  .sub_container {
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background: linear-gradient(
+      90.59deg,
+      #fbfbfb 4.81%,
+      rgba(255, 255, 255, 0.27) 93.16%
+    );
+  }
+
+  .sub_container_2 {
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background: linear-gradient(
+      90.59deg,
+      #fbfbfb 4.81%,
+      rgba(255, 255, 255, 0.27) 93.16%
+    );
+  }
+
+  .emoji_img {
+    width: auto;
+    height: 72px;
+  }
+
+  .sub_point {
+    font-style: normal;
+    font-family: sans-serif;
+    color: #787878;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 128%;
+    margin-bottom: 0;
+  }
+
+  .sub_point_2 {
+    font-style: normal;
+    font-family: sans-serif;
+    color: #787878;
+    font-weight: normal;
+    text-align: end;
+
+    font-size: 20px;
+    line-height: 128%;
+    margin-bottom: 0;
+  }
+
+  .data {
+    width: 100%;
+  }
+
+  .data_2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+
+  .customer_point {
+    font-family: sans-serif;
+    color: #6ab79d;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 128%;
+    text-align: center;
+  }
+
+  .important {
+    background: #74b29d;
+    box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin: 15px 0;
+    padding: 30px;
+  }
+
+  .hightlight {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 118%;
+    color: #ffffff;
+  }
+
+  .surpriceBag_img {
+    position: relative;
+    width: auto;
+    height: 360px;
+    object-fit: cover;
+    top: 0;
+    right: 0;
+  }
+  .dowmload_link {
+    background: #ffffff;
+    box-shadow: 10px 14px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px 0 60px 0px;
+    justify-content: center;
+  }
+
+  .footer_text {
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 118%;
+    text-align: center;
+    color: #787878;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width: 1281px) and (-webkit-min-device-pixel-ratio: 2) {
+} */
